@@ -1,0 +1,48 @@
+.result-model {
+  border: none;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 400px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.result-model::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.result-model h2 {
+  margin: 0 0 1rem 0;
+  color: #667eea;
+  font-size: 1.8rem;
+}
+
+.result-model p {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.result-model strong {
+  color: #764ba2;
+}
+
+.result-model form {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.result-model button {
+  padding: 0.75rem 2rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.result-model button:hover {
+  background: #764ba2;
+}
